@@ -1,0 +1,194 @@
+# Page settings
+
+baseURL = "https://santiago-paz.github.io/"
+languageCode = "en"
+title = "Santiago Paz | Software Engineer"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+favIcon= "💻"
+
+[params]
+    author = "Santiago Paz"
+    description = "Personal resume, with my latest work experiences"
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Santiago Paz"
+        tagline = "Senior Frontend Developer"
+        avatar = "avatar.jpg"
+
+    [params.contact]
+        enable = true
+        location = "Buenos Aires, Argentina"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:5491122548337"
+        text = "54 911 2254 8337"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:santiagopaz1992@gmail.com"
+        text = "santiagopaz1992@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "http://santiagopaz.me"
+        text = "santiagopaz.me"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Angular 10+"
+        [[params.skills.list.items]]
+        details = "TypeScript/JavaScript"
+        [[params.skills.list.items]]
+        details = "Semantic HTML5"
+        [[params.skills.list.items]]
+        details = "Responsive CSS"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "Design and implement simple database structures"
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Skills teacher"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MSc in Computer Science"
+        university = "University of Buenos Aires"
+        dates = "2010 - 2013 (Incomplete)"
+        [[params.education.list]]
+        degree = "Data Scientist"
+        university = "Digital House"
+        dates = "2018 - 2019"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+        [[params.languages.list]]
+        name = "Portuguese"
+        level = "Basic"
+        [[params.languages.list]]
+        name = "German"
+        level = "Basic"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Music and audiovisual production"
+        [[params.interests.list]]
+        name = "Machine Learning"
+        [[params.interests.list]]
+        name = "Neural networks"
+        
+    [params.summary]
+        enable = true
+        text = "The Internet has changed the way we relate to the world. And will probably continue to do so for many years to come. It is essential to adapt to new technologies quickly, effectively, <br>and in the most accessible way for everyone. Over the past years, I have been imagining, developing, and sharing knowledge of software development, with a deep focus on web    technologies. That is why I can help you achieve what you need."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Senior Frontend Developer"
+        dates = "2019 - Present"
+        company = "MediaMonks"
+        details = "Contribution to the development of a no-code tool for the easy and fast creation of promotional product pages. Creation of bots using the Google Adlingo tool, for a personalized experience and greater engagement with the user"
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "2020 - 2021"
+        company = "R/GA"
+        details = "Creation and maintenance of websites for one of the 'Big Five' companies. These pages are focused on helping small and medium-sized local family businesses."
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "2019 - 2020"
+        company = "Digital Beings"
+        details = "Distribution system for digital magazines with the possibility of interaction and customization. Development of the complete tool, using Angular and Node.js technologies. Strong focus on using good practices for possible addition of features easily and quickly."
+
+        [[params.experience.list]]
+        title = "Teaching Staff"
+        dates = "2019 - 2020"
+        company = "Educación IT"
+        details = "Instructor of the courses 'Introduction to Programming with JavaScript', 'Web Layout: HTML5 and CSS', 'Progressive Web Apps' and 'Angular 8'"
+
+        [[params.experience.list]]
+        title = "Frontend Developer"
+        dates = "2018 - 2019"
+        company = "Amazon"
+        details = "Web application developed for the most important bank in the United States, used in the financial field. Start of development in the early phase, which helped to strengthen Software Design concepts. Using Angular, together with Karma and Protractor for the creation of automated tests. Scrum work methodology."
+
+        [[params.experience.list]]
+        title = "Frontend Developer"
+        dates = "2018 - 2019"
+        company = "Logismata"
+        details = "Financial planning site for the Swiss market, using Angular technology in conjunction with TypeScript. It was a small company, which allowed greater learning and constant contact with the work group."
+
+        [[params.experience.list]]
+        title = "Frontend Developer"
+        dates = "2014 - 2017"
+        company = "MRM//McCann"
+        details = "Developing two sites entirely using AngularJS for the American market jointly between Argentine and Americans developers. Constant contact between the work team."
+
+        [[params.experience.list]]
+        title = "Java Web Developer"
+        dates = "2011 - 2012"
+        company = "Hewlett-Packard"
+        details = "Developing two sites entirely using AngularJS for the American market jointly between Argentine and Americans developers. Constant contact between the work team."
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "http://github.com/santiago-paz"
+        title = "santiago-paz"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "http://linkedin.com/in/santiago-paz"
+        title = "santiago-paz"
+        [[params.social.list]]
+        icon = "fab fa-instagram"
+        url = "http://instagram.com/atnaszap"
+        title = "atnaszap"
