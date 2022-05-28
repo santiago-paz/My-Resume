@@ -10,7 +10,7 @@ favIcon= "💻"
 [params]
     author = "Santiago Paz"
     description = "Personal resume, with my latest work experiences"
-    primaryColor = "#54B689"
+    primaryColor = "#17a061"
     textPrimaryColor = "#292929"
 
     [params.profile]
