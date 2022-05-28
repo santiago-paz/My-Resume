@@ -5,13 +5,14 @@ languageCode = "en"
 title = "Santiago Paz | Software Engineer"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
-favIcon= "💻"
+favIcon = "💻"
+enableGitInfo = "true"
 
 [params]
     author = "Santiago Paz"
     description = "Personal resume, with my latest work experiences"
     primaryColor = "#17a061"
-    textPrimaryColor = "#292929"
+    textPrimaryColor = "#292929" 
 
     [params.profile]
         enable = true
