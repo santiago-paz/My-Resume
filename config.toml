@@ -10,7 +10,7 @@ enableGitInfo = "true"
 
 [params]
     author = "Santiago Paz"
-    description = "Personal resume, with my latest work experiences"
+    description = "Personal resume with my latest work experiences."
     primaryColor = "#17a061"
     textPrimaryColor = "#292929" 
 
