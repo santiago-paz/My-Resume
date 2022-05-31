@@ -218,9 +218,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
 
         [[params.experience.list]]
-        title = "Backend Developer"
+        title = "Software Developer"
         dates = "2014 - 2016"
-        company = "Amazon"
+        company = "Globant"
         details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
 
         [[params.experience.list]]

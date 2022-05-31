@@ -139,8 +139,8 @@ enableGitInfo = "true"
         [[params.experience.list]]
         title = "Frontend Developer"
         dates = "2018 - 2019"
-        company = "Amazon"
-        details = "Web application developed for the most important bank in the United States, used in the financial field. Start of development in the early phase, which helped to strengthen Software Design concepts. Using Angular, together with Karma and Protractor for the creation of automated tests. Scrum work methodology."
+        company = "Globant"
+        details = "Web application developed for the most important bank in the United States, used in the financial field. Start of development in the early phase, which helped to strengthen software design concepts. Using Angular, together with Karma and Protractor for the creation of automated tests. Scrum work methodology."
 
         [[params.experience.list]]
         title = "Frontend Developer"
@@ -161,7 +161,8 @@ enableGitInfo = "true"
         details = "Developing two sites entirely using AngularJS for the American market jointly between Argentine and Americans developers. Constant contact between the work team."
 
     [params.projects]
-        enable = true
+        #Enable in the future :)
+        enable = false
 
         [[params.projects.list]]
         title = "Project Lorem Ipsum"
