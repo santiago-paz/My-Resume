@@ -10,7 +10,7 @@ designed for developers by Xiaoying Riley.
 
 ## Screenshot
 
-![DevResume screenshot](https://raw.githubusercontent.com/cowboysmall-tools/hugo-devresume-theme/master/images/screenshot.png)
+![DevResume screenshot](https://raw.githubusercontent.com/cowboysmall-tools/hugo-devresume-theme/master/img/screenshot.png)
 
 
 
