@@ -184,13 +184,13 @@ enableGitInfo = "true"
 
         [[params.social.list]]
         icon = "fab fa-github-square"
-        url = "http://github.com/santiago-paz"
+        url = "https://github.com/santiago-paz"
         title = "santiago-paz"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "http://linkedin.com/in/santiago-paz"
+        url = "https://linkedin.com/in/santiago-paz"
         title = "santiago-paz"
         [[params.social.list]]
         icon = "fab fa-instagram"
-        url = "http://instagram.com/atnaszap"
+        url = "https://instagram.com/atnaszap"
         title = "atnaszap"

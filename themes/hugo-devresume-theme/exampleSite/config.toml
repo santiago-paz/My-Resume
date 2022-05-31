@@ -26,9 +26,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
         name = "Simon Doe"
         tagline = "Senior Software Engineer"
-        avatar = "avatar.png"
-
-
 
 
 
