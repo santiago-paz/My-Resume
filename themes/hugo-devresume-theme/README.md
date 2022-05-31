@@ -39,7 +39,7 @@ designed for developers by Xiaoying Riley.
 
 ## Demo
 
-You can see it in action on [Hugo Themes site](http://themes.gohugo.io/theme/hugo-devresume-theme/). 
+You can see it in action on [Hugo Themes site](https://themes.gohugo.io/theme/hugo-devresume-theme/). 
 
 
 

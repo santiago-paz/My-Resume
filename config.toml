@@ -34,7 +34,7 @@ enableGitInfo = "true"
         text = "santiagopaz1992@gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "http://santiagopaz.me"
+        url = "https://santiagopaz.me"
         text = "santiagopaz.me"
 
     [params.skills]
