@@ -1,4 +1,6 @@
-<title>{{ .Site.Title }}</title>
+<title>
+    {{ .Site.Title }}
+</title>
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,16 +14,13 @@
     <svg xmlns=%22https://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
         <text y=%22.9em%22 font-size=%2290%22>💻</text>
     </svg>">
-{{/*
-<link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
-*/}}
+    
 {{- 
-    $style := 
-        resources.Get "scss/devresume.scss" | 
-        resources.ExecuteAsTemplate
-        "scss/devresume.scss" . | toCSS (dict
-        "targetPath" "assets/css/devresume.css") | 
-        minify | fingerprint 
+    $style :=
+        resources.Get "scss/devresume.scss" |
+        resources.ExecuteAsTemplate "scss/devresume.scss" . | 
+        toCSS (dict "targetPath" "assets/css/devresume.css") |
+        minify | 
+        fingerprint 
 -}}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
