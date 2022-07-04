@@ -114,8 +114,14 @@ ogImageURL = "https://santiago-paz.github.io/img/avatar.jpg"
         enable = true
 
         [[params.experience.list]]
+        title = "Web Developer"
+        dates = "2022 - Present"
+        company = "Dialpad"
+        details = "Dialpad is where work comes together—one, beautiful workspace for anywhere communication & collaboration. Dialpad has built groundbreaking and truly unified products, including the industry’s most innovative business phone system, unlimited text and team messaging, one-click video meetings, and an AI contact center—all powered by the most advanced communications AI in the world. Investors include Amasia, Andreessen Horowitz, Felicis Ventures, GV, ICONIQ Capital, Salesforce Ventures, Scale Venture Partners, Section 32, Softbank and Work-Bench"
+
+        [[params.experience.list]]
         title = "Senior Frontend Developer"
-        dates = "2019 - Present"
+        dates = "2021 - 2022"
         company = "MediaMonks"
         details = "Contribution to the development of a no-code tool for the easy and fast creation of promotional product pages. Creation of bots using the Google Adlingo tool, for a personalized experience and greater engagement with the user"
 
