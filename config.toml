@@ -120,6 +120,12 @@ ogImageURL = "https://santiago-paz.github.io/img/avatar.jpg"
         details = "Dialpad is where work comes together—one, beautiful workspace for anywhere communication & collaboration. Dialpad has built groundbreaking and truly unified products, including the industry’s most innovative business phone system, unlimited text and team messaging, one-click video meetings, and an AI contact center—all powered by the most advanced communications AI in the world. Investors include Amasia, Andreessen Horowitz, Felicis Ventures, GV, ICONIQ Capital, Salesforce Ventures, Scale Venture Partners, Section 32, Softbank and Work-Bench"
 
         [[params.experience.list]]
+        title = "Professor"
+        dates = "2022 - Present"
+        company = "Digital House"
+        details = "I work as a teacher in the subject 'Front End II' of the Certified Tech Developer career, an educational initiative co-created by Digital House, Mercado Libre and Globant to train developers following the highest industry standards."
+
+        [[params.experience.list]]
         title = "Senior Frontend Developer"
         dates = "2021 - 2022"
         company = "MediaMonks"
@@ -169,22 +175,12 @@ ogImageURL = "https://santiago-paz.github.io/img/avatar.jpg"
 
     [params.projects]
         #Enable in the future :)
-        enable = false
+        enable = true
 
         [[params.projects.list]]
-        title = "Project Lorem Ipsum"
+        title = "Reema AI"
         meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
-        [[params.projects.list]]
-        title = "Project Sed Fringilla"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
-        [[params.projects.list]]
-        title = "Project Praesent"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        tagline = "A voice software specialized in text-to-speech news articles."
 
     [params.social]
         enable = true
