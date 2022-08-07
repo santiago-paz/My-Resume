@@ -194,6 +194,10 @@ ogImageURL = "https://santiago-paz.github.io/img/avatar.jpg"
         url = "https://linkedin.com/in/santiago-paz"
         title = "santiago-paz"
         [[params.social.list]]
+        icon = "fab fa-medium"
+        url = "https://medium.com/@santiago-paz"
+        title = "santiago-paz"
+        [[params.social.list]]
         icon = "fab fa-instagram"
         url = "https://instagram.com/atnaszap"
         title = "atnaszap"
