@@ -26,10 +26,6 @@ ogImageURL = "https://santiago-paz.github.io/img/avatar.jpg"
         location = "Buenos Aires, Argentina"
 
         [[params.contact.list]]
-        icon = "fas fa-phone-square"
-        url = "tel:5491122548337"
-        text = "54 911 2254 8337"
-        [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:santiagopaz1992@gmail.com"
         text = "santiagopaz1992@gmail.com"
