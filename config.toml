@@ -27,8 +27,8 @@ ogImageURL = "https://santiago-paz.github.io/img/avatar.jpg"
 
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
-        url = "mailto:santiagopaz1992@gmail.com"
-        text = "santiagopaz1992@gmail.com"
+        url = "mailto:info@santiagopaz.me"
+        text = "info@santiagopaz.me"
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "https://santiagopaz.me"
