@@ -18,7 +18,7 @@ ogImageURL = "https://santiago-paz.github.io/img/avatar.jpg"
     [params.profile]
         enable = true
         name = "Santiago Paz"
-        tagline = "Senior Frontend Developer"
+        tagline = "Software Engineer"
         avatar = "avatar.jpg"
 
     [params.contact]
