@@ -3,19 +3,9 @@
 This is a Hugo port of [DevResume](//github.com/xriley/DevResume-Theme) - a great looking resume/CV template 
 designed for developers by Xiaoying Riley.
 
-
-
-
-
-
 ## Screenshot
 
 ![DevResume screenshot](https://raw.githubusercontent.com/cowboysmall-tools/hugo-devresume-theme/master/img/screenshot.png)
-
-
-
-
-
 
 ## Features
 
@@ -32,34 +22,26 @@ designed for developers by Xiaoying Riley.
 
 - Google Analytics
 
-
-
-
-
-
 ## Demo
 
 You can see it in action on [Hugo Themes site](https://themes.gohugo.io/theme/hugo-devresume-theme/). 
 
-
-
-
-
-
 ## Contents
 
-- [Installation](#installation)
-- [Getting started](#getting-started)
+- [Hugo DevResume Theme](#hugo-devresume-theme)
+  - [Screenshot](#screenshot)
+  - [Features](#features)
+    - [Original](#original)
+    - [Added](#added)
+  - [Demo](#demo)
+  - [Contents](#contents)
+  - [Installation](#installation)
+  - [Getting Started](#getting-started)
     - [Setup](#setup)
     - [Viewing](#viewing)
     - [Building](#building)
-- [Contributing](#contributing)
-- [License](#license)
-
-
-
-
-
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Installation
 
@@ -67,12 +49,6 @@ Within the root of your Hugo project execute the following:
 
     $ cd themes
     $ git clone https://github.com/cowboysmall-tools/hugo-devresume-theme.git
-
-
-
-
-
-
 
 ## Getting Started
 
@@ -100,22 +76,10 @@ To generate your site in the `public` folder, execute the following:
 
 within the root of your project.
 
-
-
-
-
-
-
 ## Contributing
 
 Post bugs and contributions to the [issue tracker](//github.com/cowboysmall-tools/hugo-devresume-theme/issues). 
 Or make a [pull request](//github.com/cowboysmall-tools/hugo-devresume-theme/pulls).
-
-
-
-
-
-
 
 ## License
 
@@ -128,4 +92,3 @@ You may change the "Ported for..." line by adding the following to the end of `c
     
     [params.footer]
         copyright = ""
-
