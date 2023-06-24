@@ -9,190 +9,193 @@ enableGitInfo = "true"
 ogImageURL = "https://santiagopaz.me/assets/images/avatar.jpg"
 
 [params]
-    author = "Santiago Paz"
-    description = "Personal resume with my latest work experiences"
-    primaryColor = "#17a061"
-    textPrimaryColor = "#292929" 
+author = "Santiago Paz"
+description = "Personal resume with my latest work experiences"
+primaryColor = "#17a061"
+textPrimaryColor = "#292929"
 
-    [params.profile]
-        enable = true
-        name = "Santiago Paz"
-        tagline = "Software Engineer"
-        avatar = "avatar.jpg"
+[params.profile]
+enable = true
+name = "Santiago Paz"
+tagline = "Software Engineer"
+avatar = "avatar.jpg"
 
-    [params.contact]
-        enable = true
-        location = "Buenos Aires, Argentina"
+[params.contact]
+enable = true
+location = "Buenos Aires, Argentina"
 
-        [[params.contact.list]]
-        icon = "fas fa-envelope-square"
-        url = "mailto:info@santiagopaz.me"
-        text = "info@santiagopaz.me"
-        [[params.contact.list]]
-        icon = "fas fa-globe"
-        url = "https://santiagopaz.me"
-        text = "santiagopaz.me"
+[[params.contact.list]]
+icon = "fas fa-envelope-square"
+url = "mailto:info@santiagopaz.me"
+text = "info@santiagopaz.me"
+[[params.contact.list]]
+icon = "fas fa-globe"
+url = "https://santiagopaz.me"
+text = "santiagopaz.me"
 
-    [params.skills]
-        enable = true
+[params.skills]
+enable = true
 
-        [[params.skills.list]]
-        title = "Technical"
-        [[params.skills.list.items]]
-        details = "Angular 10+"
-        [[params.skills.list.items]]
-        details = "TypeScript/JavaScript"
-        [[params.skills.list.items]]
-        details = "Semantic HTML5"
-        [[params.skills.list.items]]
-        details = "Responsive CSS"
-        [[params.skills.list.items]]
-        details = "Object-oriented design"
-        [[params.skills.list.items]]
-        details = "Design and implement simple database structures"
-        [[params.skills.list]]
-        title = "Professional"
-        [[params.skills.list.items]]
-        details = "Effective communication"
-        [[params.skills.list.items]]
-        details = "Team player"
-        [[params.skills.list.items]]
-        details = "Skills teacher"
-        [[params.skills.list.items]]
-        details = "Strong problem solver"
-        [[params.skills.list.items]]
-        details = "Good time management"
+[[params.skills.list]]
+title = "Technical"
+[[params.skills.list.items]]
+details = "Angular 10+"
+[[params.skills.list.items]]
+details = "TypeScript/JavaScript"
+[[params.skills.list.items]]
+details = "Semantic HTML5"
+[[params.skills.list.items]]
+details = "Responsive CSS"
+[[params.skills.list.items]]
+details = "Object-oriented design"
+[[params.skills.list.items]]
+details = "Design and implement simple database structures"
+[[params.skills.list]]
+title = "Professional"
+[[params.skills.list.items]]
+details = "Effective communication"
+[[params.skills.list.items]]
+details = "Team player"
+[[params.skills.list.items]]
+details = "Skills teacher"
+[[params.skills.list.items]]
+details = "Strong problem solver"
+[[params.skills.list.items]]
+details = "Good time management"
 
-    [params.education]
-        enable = true
+[params.education]
+enable = true
 
-        [[params.education.list]]
-        degree = "MSc in Computer Science"
-        university = "University of Buenos Aires"
-        dates = "2010 - 2013 (Incomplete)"
-        [[params.education.list]]
-        degree = "Data Scientist"
-        university = "Digital House"
-        dates = "2018 - 2019"
+[[params.education.list]]
+degree = "MSc in Data Science"
+university = "University of Buenos Aires"
+dates = "2023 - Current (Ongoing)"
+[[params.education.list]]
+degree = "MSc in Computer Science"
+university = "University of Buenos Aires"
+dates = "2010 - 2013 (Incomplete)"
+[[params.education.list]]
+degree = "Data Scientist"
+university = "Digital House"
+dates = "2018 - 2019"
 
-    [params.languages]
-        enable = true
+[params.languages]
+enable = true
 
-        [[params.languages.list]]
-        name = "Spanish"
-        level = "Native"
-        [[params.languages.list]]
-        name = "English"
-        level = "Professional"
-        [[params.languages.list]]
-        name = "Portuguese"
-        level = "Basic"
-        [[params.languages.list]]
-        name = "German"
-        level = "Basic"
+[[params.languages.list]]
+name = "Spanish"
+level = "Native"
+[[params.languages.list]]
+name = "English"
+level = "Professional"
+[[params.languages.list]]
+name = "Portuguese"
+level = "Basic"
+[[params.languages.list]]
+name = "German"
+level = "Basic"
 
-    [params.interests]
-        enable = true
+[params.interests]
+enable = true
 
-        [[params.interests.list]]
-        name = "Music and audiovisual production"
-        [[params.interests.list]]
-        name = "Machine Learning"
-        [[params.interests.list]]
-        name = "Neural networks"
-        
-    [params.summary]
-        enable = true
-        text = "The internet and artificial intelligence has drastically changed the way we interact with the world, and this trend is likely to continue for the foreseeable future. In order to keep up, it's essential to quickly and effectively adopt new technologies in a way that's accessible to everyone. I've spent the last few years gaining experience in software development, specifically web technologies. As a result, I am well-equipped to help you achieve your goals. The texts of my job descriptions were created with the assistance of artificial intelligence technology."
+[[params.interests.list]]
+name = "Music and audiovisual production"
+[[params.interests.list]]
+name = "Machine Learning"
+[[params.interests.list]]
+name = "Neural networks"
 
-    [params.experience]
-        enable = true
+[params.summary]
+enable = true
+text = "The internet and artificial intelligence has drastically changed the way we interact with the world, and this trend is likely to continue for the foreseeable future. In order to keep up, it's essential to quickly and effectively adopt new technologies in a way that's accessible to everyone. I've spent the last few years gaining experience in software development, specifically web technologies. As a result, I am well-equipped to help you achieve your goals. The texts of my job descriptions were created with the assistance of artificial intelligence technology."
 
-        [[params.experience.list]]
-        title = "Web Developer"
-        dates = "2022 - Present"
-        company = "Dialpad"
-        details = "Dialpad is where work comes together—one, beautiful workspace for anywhere communication & collaboration. Dialpad has built groundbreaking and truly unified products, including the industry’s most innovative business phone system, unlimited text and team messaging, one-click video meetings, and an AI contact center—all powered by the most advanced communications AI in the world. Investors include Amasia, Andreessen Horowitz, Felicis Ventures, GV, ICONIQ Capital, Salesforce Ventures, Scale Venture Partners, Section 32, Softbank and Work-Bench"
+[params.experience]
+enable = true
 
-        [[params.experience.list]]
-        title = "Professor"
-        dates = "2022 - 2022"
-        company = "Digital House"
-        details = "I was a professor in the 'Front End II' subject as part of the Certified Tech Developer career. This educational initiative is a collaboration between Digital House, Mercado Libre and Globant, which aims to train developers to meet the highest industry standards."
+[[params.experience.list]]
+title = "Web Developer"
+dates = "2022 - Present"
+company = "Dialpad"
+details = "Dialpad is where work comes together—one, beautiful workspace for anywhere communication & collaboration. Dialpad has built groundbreaking and truly unified products, including the industry’s most innovative business phone system, unlimited text and team messaging, one-click video meetings, and an AI contact center—all powered by the most advanced communications AI in the world. Investors include Amasia, Andreessen Horowitz, Felicis Ventures, GV, ICONIQ Capital, Salesforce Ventures, Scale Venture Partners, Section 32, Softbank and Work-Bench"
 
-        [[params.experience.list]]
-        title = "Senior Frontend Developer"
-        dates = "2021 - 2022"
-        company = "MediaMonks"
-        details = "I have contributed to the development of a no-code tool that enables the effortless and efficient creation of promotional product pages. In addition, I have utilized Google Adlingo to build bots that enhance user engagement and provide a personalized experience."
+[[params.experience.list]]
+title = "Professor"
+dates = "2022 - 2022"
+company = "Digital House"
+details = "I was a professor in the 'Front End II' subject as part of the Certified Tech Developer career. This educational initiative is a collaboration between Digital House, Mercado Libre and Globant, which aims to train developers to meet the highest industry standards."
 
-        [[params.experience.list]]
-        title = "Software Engineer"
-        dates = "2020 - 2021"
-        company = "R/GA"
-        details = "I was responsible for creating and maintaining websites for a 'Big Five' company, with a focus on assisting local small and medium-sized family businesses."
+[[params.experience.list]]
+title = "Senior Frontend Developer"
+dates = "2021 - 2022"
+company = "MediaMonks"
+details = "I have contributed to the development of a no-code tool that enables the effortless and efficient creation of promotional product pages. In addition, I have utilized Google Adlingo to build bots that enhance user engagement and provide a personalized experience."
 
-        [[params.experience.list]]
-        title = "Software Engineer"
-        dates = "2019 - 2020"
-        company = "Digital Beings"
-        details = "Distribution system for digital magazines with the possibility of interaction and customization. Development of the complete tool, using Angular and Node.js technologies. Strong focus on using good practices for possible addition of features easily and quickly. Website development for HALLS South Africa marketing campaign. As there has been an extreme urgency of the client, we use agile methodologies for the success of the project in a timely manner."
+[[params.experience.list]]
+title = "Software Engineer"
+dates = "2020 - 2021"
+company = "R/GA"
+details = "I was responsible for creating and maintaining websites for a 'Big Five' company, with a focus on assisting local small and medium-sized family businesses."
 
-        [[params.experience.list]]
-        title = "Teaching Staff"
-        dates = "2019 - 2020"
-        company = "Educación IT"
-        details = "Instructor of the courses 'Introduction to Programming with JavaScript', 'Web Layout: HTML5 and CSS', 'Progressive Web Apps' and 'Angular 8'"
+[[params.experience.list]]
+title = "Software Engineer"
+dates = "2019 - 2020"
+company = "Digital Beings"
+details = "Distribution system for digital magazines with the possibility of interaction and customization. Development of the complete tool, using Angular and Node.js technologies. Strong focus on using good practices for possible addition of features easily and quickly. Website development for HALLS South Africa marketing campaign. As there has been an extreme urgency of the client, we use agile methodologies for the success of the project in a timely manner."
 
-        [[params.experience.list]]
-        title = "Frontend Developer"
-        dates = "2018 - 2019"
-        company = "Globant"
-        details = "Web application developed for the most important bank in the United States, used in the financial field. Start of development in the early phase, which helped to strengthen Software Design concepts. Using Angular, together with Karma and Protractor for the creation of automated tests. Scrum work methodology."
+[[params.experience.list]]
+title = "Teaching Staff"
+dates = "2019 - 2020"
+company = "Educación IT"
+details = "Instructor of the courses 'Introduction to Programming with JavaScript', 'Web Layout: HTML5 and CSS', 'Progressive Web Apps' and 'Angular 8'"
 
-        [[params.experience.list]]
-        title = "Frontend Developer"
-        dates = "2018 - 2019"
-        company = "Logismata"
-        details = "Financial planning site for the Swiss market, using Angular technology in conjunction with TypeScript. It was a small company, which allowed greater learning and constant contact with the work group."
+[[params.experience.list]]
+title = "Frontend Developer"
+dates = "2018 - 2019"
+company = "Globant"
+details = "Web application developed for the most important bank in the United States, used in the financial field. Start of development in the early phase, which helped to strengthen Software Design concepts. Using Angular, together with Karma and Protractor for the creation of automated tests. Scrum work methodology."
 
-        [[params.experience.list]]
-        title = "Frontend Developer"
-        dates = "2014 - 2017"
-        company = "MRM//McCann"
-        details = "I was responsible for developing two websites entirely using AngularJS for the American market, through a joint effort between Argentine and American developers. The project required constant communication and collaboration between the development team"
+[[params.experience.list]]
+title = "Frontend Developer"
+dates = "2018 - 2019"
+company = "Logismata"
+details = "Financial planning site for the Swiss market, using Angular technology in conjunction with TypeScript. It was a small company, which allowed greater learning and constant contact with the work group."
 
-        [[params.experience.list]]
-        title = "Java Web Developer"
-        dates = "2011 - 2012"
-        company = "Hewlett-Packard"
-        details = "Developing a Self-Management and Touch Management system for NEXTEL. Using technologies: J2SE, JBoss Seam, JavaScript and JavaServer Faces."
+[[params.experience.list]]
+title = "Frontend Developer"
+dates = "2014 - 2017"
+company = "MRM//McCann"
+details = "I was responsible for developing two websites entirely using AngularJS for the American market, through a joint effort between Argentine and American developers. The project required constant communication and collaboration between the development team"
 
-    [params.projects]
-        #Enable in the future :)
-        enable = true
+[[params.experience.list]]
+title = "Java Web Developer"
+dates = "2011 - 2012"
+company = "Hewlett-Packard"
+details = "Developing a Self-Management and Touch Management system for NEXTEL. Using technologies: J2SE, JBoss Seam, JavaScript and JavaServer Faces."
 
-        [[params.projects.list]]
-        title = "Reema AI"
-        meta = "Open Source"
-        tagline = "A voice software specialized in text-to-speech news articles."
+[params.projects]
+enable = true
 
-    [params.social]
-        enable = true
+[[params.projects.list]]
+title = "Reema AI"
+meta = "Open Source"
+tagline = "A voice software specialized in text-to-speech news articles."
 
-        [[params.social.list]]
-        icon = "fab fa-github-square"
-        url = "https://github.com/santiago-paz"
-        title = "santiago-paz"
-        [[params.social.list]]
-        icon = "fab fa-linkedin"
-        url = "https://linkedin.com/in/santiago-paz"
-        title = "santiago-paz"
-        [[params.social.list]]
-        icon = "fab fa-medium"
-        url = "https://medium.com/@santiago-paz"
-        title = "santiago-paz"
-        [[params.social.list]]
-        icon = "fab fa-instagram"
-        url = "https://instagram.com/atnaszap"
-        title = "atnaszap"
+[params.social]
+enable = true
+
+[[params.social.list]]
+icon = "fab fa-github-square"
+url = "https://github.com/santiago-paz"
+title = "santiago-paz"
+[[params.social.list]]
+icon = "fab fa-linkedin"
+url = "https://linkedin.com/in/santiago-paz"
+title = "santiago-paz"
+[[params.social.list]]
+icon = "fab fa-medium"
+url = "https://medium.com/@santiago-paz"
+title = "santiago-paz"
+[[params.social.list]]
+icon = "fab fa-instagram"
+url = "https://instagram.com/atnaszap"
+title = "atnaszap"
