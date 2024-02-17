@@ -1,3 +1,16 @@
+{{ $css := resources.Get "css/style.css" | resources.PostCSS }}
+{{ if hugo.IsProduction }}
+    {{ $css = $css | minify | fingerprint | resources.PostProcess }}
+{{ end }}
+
+<link
+  rel="stylesheet"
+  href="{{ $css.RelPermalink }}"
+  {{ if hugo.IsProduction -}}
+    integrity="{{ $css.Data.Integrity }}"
+  {{- end }}
+/>
+
 <title>
     {{ .Site.Title }}
 </title>
@@ -14,13 +27,13 @@
     <svg xmlns=%22https://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
         <text y=%22.9em%22 font-size=%2290%22>💻</text>
     </svg>">
-    
-{{- 
+
+{{-
     $style :=
         resources.Get "scss/devresume.scss" |
-        resources.ExecuteAsTemplate "scss/devresume.scss" . | 
+        resources.ExecuteAsTemplate "scss/devresume.scss" . |
         toCSS (dict "targetPath" "assets/css/devresume.css") |
-        minify | 
-        fingerprint 
+        minify |
+        fingerprint
 -}}
 <link rel="stylesheet" href="{{ $style.Permalink }}">

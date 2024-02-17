@@ -199,3 +199,6 @@ title = "santiago-paz"
 icon = "fab fa-instagram"
 url = "https://instagram.com/atnaszap"
 title = "atnaszap"
+
+[build]
+  writeStats = true
